@@ -1,5 +1,75 @@
 Notes
 
+
+App Menu
+Login/Logout (stay logged in or autologin until logout)
+Register
+Live Talkspace
+Polls
+Petitions
+Discussion Boards
+
+
+Setup Profile:
+Note that all  profile info private to other users, but used in searcheds
+Year born
+Gender
+City Located
+Interests: (Keywords separated by commas)
+Email
+Phone (use to authenticate via texted code)
+
+Create a Poll 
+(multiple choice up to 5, or blanks up to 5, or combo – i.e. “Other ________”)
+Post Poll to Poll Board on App
+Send Poll to phone Contacts as a text w link to web based poll
+	Each app user can fill out a poll only once.  
+	Each mobile phone number can fill out a poll only once,
+Create a Petition
+	Description of proposed action.
+Field for Email entry (autopopulates app user default email and phone with option to change, option to delete phone)
+Field Phone entry (autopopulates phone recipient contact number with option to change or delete)
+Send Poll to phone Contacts as a text w link to web based petition  Shows user phone number as 
+“sent from”.
+
+Poll/ Petition (web Based)
+Ability to access phone contacts and re- forward link as a text message 
+Add a From field for sender to populate their name and phone (required, authenticated via text code)
+Show senders name and ohone to recipient
+
+Search Users 
+By Age range, gender, city, state, interests, can also use a NOT operation for each of these variables 
+
+
+
+Open a live Audio Chat:
+	Define Chat Topic
+Blast live topic to : groups and those followingvia a notification, app homepage
+Get pinged when someone joins live audio
+
+Live Audio Chat:
+	Can be ip based, or use phone to call into bridge
+	Group audio conference highlight photo/name of who’s talking
+
+Start A Group:
+	Define Group parameters 
+(boot requirements, moderator versus quorum),
+(invite requirements: owner versus quorum)
+
+Invite to Group:
+
+Introduce to Group:
+
+Withdraw From Group
+
+Boot from Group
+
+Create Bulletin Board Topic:
+
+
+
+
+
 **Building a responsive page:
 
 Make the body a flex container

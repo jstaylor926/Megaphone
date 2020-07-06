@@ -1,16 +1,134 @@
-body{
-    height: 100vh;
-    margin: 0;
+.wrapper {
     display: flex;
-
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    height: auto;
 }
 
-
-aside {
-    background-color: darkslategray;
-    width: 200px;
+.wrapper>* {
+    padding: 10px;
+    flex: 1 100%;
 }
-main{
-    background-color: burlywood;
-    flex: 1 0 0;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+header.sticky {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background: gray;
+}
+
+header .logo {
+    position: relative;
+    font-weight: 700;
+    color: #000;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 1s;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: blueviolet;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 1s;
+}
+
+a:hover {
+    color: white;
+    transition: .5s;
+}
+
+header .logo,
+header.sticky ul li a {
+    color: blueviolet;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+    width: 20%;
+    height: 100%;
+    background-image: url("loginBackground.jpg");
+}
+
+.loginTitles {
+    color: white;
+}
+
+form h3 {
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer {
+    background: lightgreen;
+}
+
+.main {
+    text-align: left;
+    background: deepskyblue;
+}
+
+.aside-1 {
+    background: gold;
+}
+
+.aside-2 {
+    background: hotpink;
+}
+
+@media all and (min-width: 600px) {
+    .aside {
+        flex: 1 0 0;
+    }
+}
+
+@media all and (min-width: 800px) {
+    .main {
+        flex: 3 0px;
+    }
+    .aside-1 {
+        order: 1;
+    }
+    .main {
+        order: 2;
+    }
+    .aside-2 {
+        order: 3;
+    }
+    .footer {
+        order: 4;
+    }
+}
+
+body {
+    padding: 2em;
 }

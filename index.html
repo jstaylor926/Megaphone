@@ -8,19 +8,34 @@
 </head>
 
 <body>
-    <header>
-        <a href="#" class="logo">Megaphone</a>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Create</a></li>
-            <li><a href="#">Discuss</a></li>
-            <li><a href="#">Live Talk</a></li>
-        </ul>
-    </header>
-    <section class="banner"></section>
-    <div id="container">
-        <h3>Test Case 123</h3>
+<header>
+    <a href="#" class="logo">Megaphone</a>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Create</a></li>
+        <li><a href="#">Discuss</a></li>
+        <li><a href="#">Live Talk</a></li>
+    </ul>
+</header>
+<form>
+    <h3>Please Login</h3>
+    <div class="container">
+        <label for="uname" class="loginTitles"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" id="uname" required>
+
+        <label for="psw" class="loginTitles"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+        <button type="submit">Login</button>
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
     </div>
-    <script src="script.js"></script>
+
+</form>
+
+
+
+<script src="script.js"></script>
 </body>
 </html>
