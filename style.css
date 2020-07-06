@@ -7,7 +7,10 @@
 
 body {
     background: lightblue;
-    min-height: 200vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
@@ -20,6 +23,10 @@ header {
     align-items: center;
     padding: 20px 100px;
     background-color: black;
+}
+
+main {
+    flex: 1 0 0;
 }
 
 header.sticky {
@@ -60,10 +67,14 @@ header ul li a {
     margin: 0 15px;
     text-decoration: blueviolet;
     letter-spacing: 2px;
-    font-weight: 600px;
+    font-weight: 600;
     transition: 1s;
 }
+a:hover {
+    color: white;
+    transition: .5s;
 
+}
 .bannner {
     position: relative;
     width: 100%;

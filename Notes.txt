@@ -1,0 +1,8 @@
+Notes
+
+**Building a responsive page:
+
+Make the body a flex container
+body{
+    display: flex;
+}

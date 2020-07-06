@@ -1,0 +1,16 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+
+}
+
+
+aside {
+    background-color: darkslategray;
+    width: 200px;
+}
+main{
+    background-color: burlywood;
+    flex: 1 0 0;
+}
